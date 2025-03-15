@@ -81,9 +81,10 @@ body{
 }
 
 .wrapper h1{
-    font-size: 28px;
+    font-size: 26px; /* 28px */
     text-align: center;
     color: #283BA5;
+    font-weight: 700;
 }
 
 .wrapper .input-box{
@@ -93,7 +94,8 @@ body{
 }
 
 .input-box label {
-    font-size: 16px;
+    font-size: 14px; /* 16px */
+    font-weight: 500;
     color: #B7B7BD;
     display: block;
     margin-bottom: 5px;
@@ -114,7 +116,8 @@ body{
 
 .error-message {
     /*display: none;*/
-    font-size: 14px;
+    font-size: 12px; /* 14px */
+    font-weight: 500;
     color: red;
     margin-top: 5px; /* Добавляем небольшой отступ сверху */
     position: relative;
@@ -131,14 +134,15 @@ body{
     border-radius: 40px;
 
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
     font-weight: 600;
 }
 
 .register-link {
-    font-size: 14.5px;
+    font-size: 12px; /* 14.5px */
     text-align: center;
+    font-weight: 500;
     margin-top: 15px;
     color: #fff;
 }
