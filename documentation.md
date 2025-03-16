@@ -9,13 +9,29 @@ ZONBIROVANIE — это веб-приложение, которое исполь
 Проект организован следующим образом:
 ```
 /zonbirovanie
-│── /frontend               # Каталог с фронтендом
-│   │── index.html          # Главная страница (форма входа)
-│   │── log_in_style.css    # Стили для страницы входа
-│   │── /static             # Папка с ресурсами (изображения, шрифты)
-│   │   ├── wave.svg        # Волна на фоне
-│   │   ├── logo.svg        # Логотип проекта
-│── README.md               # Документация проекта
+│── /frontend                           # Каталог с фронтендом
+│   │── /scr                            # Папка с html/css компонентами проекта
+│   │   ├── /css                        # Папка с css
+│   │   │   ├── style.css               # css для главной страницы
+│   │   │   ├── styleloading.css        # css для страницы загрузки изображений
+│   │   │   ├── stylelogin.css          # css для страниц входа и регистрации
+│   │   ├── /images             # Папка с изображениями
+│   │   │   ├── asia.svg                
+│   │   │   ├── circle.svg           
+│   │   │   ├── ellipse.png    
+│   │   │   ├── loading-cloud.svg                
+│   │   │   ├── logo-log-in.svg
+│   │   │   ├── logo.svg
+│   │   │   ├── rectangle.png
+│   │   │   ├── user-icon.svg
+│   │   │   ├── wave-loading.svg
+│   │   │   ├── wave-log-in.svg
+│   │   │   ├── wave.svg
+│   │   ├── index.html          # Главная страница
+│   │   ├── loading.html        # Страница для загрузки изображений
+│   │   ├── login.html          # Страница с входом
+│   │   ├── signup.html         # Страница с регистрацией
+│   │── README.md
 ```
 🎨 Основные компоненты
 1. Форма входа (index.html)
